@@ -31,7 +31,7 @@ myObj.sayHello('Ekko');
 //New Binding
 //"Whenever a constructor function is used (new), 'This' refers to the specific instance of the object that is created and returned by the constructor function"
 
-function CordialPerson(greeter) {
+function CordialPerson(greeter) { //capitalize constructor functions
     this.greeting = 'Hello '; //'This' refers to the object that will be greated when we call CordialPerson with the 'New' keyword
     this.greeter = greeter; 
     this.speak = function() {

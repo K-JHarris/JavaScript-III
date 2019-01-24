@@ -45,7 +45,7 @@ wishes.makeWishes()
 
 // code example for New Binding
 function theOneAndGlorious(name) {
-    // ♫ https://www.youtube.com/watch?v=_mG7VyBSjq0 ♫
+    //♫ https://www.youtube.com/watch?v=_mG7VyBSjq0 ♫
     this.introduction = 'My name is ';
     this.name = name;
     this.introduce = function() {
